@@ -13,5 +13,5 @@ The object graph is instantiated on app start and AppDelegate is injected with t
 The app does not use a storyboard entry point, instead the AppDelegate calls on the coordinator to "navigateToRoot":
 configure the app window with a root VC and make it visible.
 
-The root VC is instantiated from Styboard via its identifier. Since we don't control it's init method, we inject the ViewModel
+The root VC is instantiated from Styboard via its identifier. Since we don't control its init method, we inject the ViewModel
 via property injection, just like with the AppDelegate.
