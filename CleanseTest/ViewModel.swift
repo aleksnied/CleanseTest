@@ -11,10 +11,10 @@ import Cleanse
 
 struct ViewModel {
     
-    var repo: Repo!
+    //var repo: Repo!
     
     init() {
-        <#statements#>
+        
     }
     
     struct Module : Cleanse.Module {
